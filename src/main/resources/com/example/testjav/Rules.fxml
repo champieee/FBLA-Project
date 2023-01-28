@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testjav.Sc">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rules" StackPane.alignment="TOP_CENTER">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <StackPane.margin>
+            <Insets top="50.0" />
+         </StackPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1. Display your dash to reveal the 14 letters you have been given " wrappingWidth="347.328125">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <StackPane.margin>
+            <Insets bottom="125.0" />
+         </StackPane.margin>
+      </Text>
+      <Button fx:id="retR" mnemonicParsing="false" onAction="#returnScreen" text="Return" StackPane.alignment="BOTTOM_LEFT">
+         <StackPane.margin>
+            <Insets bottom="60.0" left="175.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="quit3" mnemonicParsing="false" onAction="#quit" text="Quit" StackPane.alignment="BOTTOM_RIGHT">
+         <StackPane.margin>
+            <Insets bottom="60.0" right="175.0" />
+         </StackPane.margin>
+      </Button>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2. Try to make as many words as possible, if you find a word you will get 5 points for each letter in it so try and make the longest words you can" wrappingWidth="348.859375">
+         <StackPane.margin>
+            <Insets bottom="15.0" />
+         </StackPane.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3. Press end turn to change turns or quit to exit the game. If the second player ends their turn it will bring up the winner screen" wrappingWidth="353.099609375">
+         <StackPane.margin>
+            <Insets top="115.0" />
+         </StackPane.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</StackPane>

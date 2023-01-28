@@ -10,9 +10,10 @@ import java.io.IOException;
 public class ScrabbleGame extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        // displays the title screen
         FXMLLoader fxmlLoader = new FXMLLoader(ScrabbleGame.class.getResource("Sc2.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("FBLA Project");
         stage.setScene(scene);
         stage.show();
     }

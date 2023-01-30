@@ -2,6 +2,8 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
@@ -9,13 +11,18 @@
 
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testjav.Sc">
     <children>
-        <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#e7473c" height="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="350.0" />
-        <Button fx:id="ret" mnemonicParsing="false" onAction="#restart" style="-fx-background-color: #e7473c; -fx-text-fill: #f0f0f0;" text="Restart" StackPane.alignment="BOTTOM_CENTER">
+      <ImageView fitHeight="500.0" fitWidth="943.0">
+         <image>
+             <Image url="https://www.teahub.io/photos/full/134-1348814_free-space-backgrounds-group-space-invaders-game-background.jpg" />
+         </image>
+      </ImageView>
+        <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#13294b" height="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="350.0" />
+        <Button fx:id="ret" mnemonicParsing="false" onAction="#restart" style="-fx-background-color: #13294B; -fx-text-fill: #f0f0f0;" text="Restart" StackPane.alignment="BOTTOM_CENTER">
             <StackPane.margin>
                 <Insets bottom="75.0" right="200.0" />
             </StackPane.margin>
         </Button>
-        <Button fx:id="quit1" mnemonicParsing="false" onAction="#quit" style="-fx-background-color: #e7473c; -fx-text-fill: #f0f0f0;" text="  Quit  " StackPane.alignment="BOTTOM_CENTER">
+        <Button fx:id="quit1" mnemonicParsing="false" onAction="#quit" style="-fx-background-color: #13294B; -fx-text-fill: #f0f0f0;" text="  Quit  " StackPane.alignment="BOTTOM_CENTER">
             <StackPane.margin>
                 <Insets bottom="75.0" left="200.0" />
             </StackPane.margin>
@@ -25,12 +32,12 @@
                 <Font name="System Bold" size="36.0" />
             </font>
         </Text>
-        <Text fill="#e7473c" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Consolas; -fx-font-size: 40; -fx-font-weight: Bold;" text="Winner:" StackPane.alignment="TOP_CENTER">
+        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Consolas; -fx-font-size: 40; -fx-font-weight: Bold;" text="Winner:" StackPane.alignment="TOP_CENTER">
             <StackPane.margin>
                 <Insets top="75.0" />
             </StackPane.margin>
         </Text>
-        <Button fx:id="showWin" mnemonicParsing="false" onAction="#setWinner" style="-fx-background-color: #e7473c; -fx-text-fill: #f0f0f0;" text="Show Winner" StackPane.alignment="BOTTOM_CENTER">
+        <Button fx:id="showWin" mnemonicParsing="false" onAction="#setWinner" style="-fx-background-color: #13294B; -fx-text-fill: #f0f0f0;" text="Show Winner" StackPane.alignment="BOTTOM_CENTER">
             <StackPane.margin>
                 <Insets bottom="75.0" />
             </StackPane.margin>
